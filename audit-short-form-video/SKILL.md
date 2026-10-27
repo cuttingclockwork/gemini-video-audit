@@ -5,7 +5,7 @@ description: Audits a finished short-form video (Shorts, Reels, TikTok) and give
 
 # Audit a short-form video
 
-*Version 1.0.0*
+*Version 1.1.0*
 
 **Default level: ask** (to skip the level question, change `ask` to 1, 2 or 3)
 **Default language: video** (change `video` to e.g. `English` or `Nederlands` to fix the report language)
@@ -107,6 +107,8 @@ Then say how to compare: with the creator's own recent videos of similar length 
 5. **Sound and caption directions.** Loudness and mix adjustments (with targets such as -14 LUFS and 12-18 dB music ducking where needed), music in and out points, drop-outs for emphasis, sound effects with timecodes, and caption corrections (spelling, sync, contrast and safe-zone placement).
 6. **Hooks and script.** Exactly three alternative hooks, each a spoken line plus the first-frame visual. At Pro, also the full rewritten voice-over. The script is plain spoken text: no markdown, asterisks, bullets, emojis or capitals for emphasis, ready for a voice actor or text-to-speech.
 7. **Shot list (9:16).** Per shot: angle, movement, lighting mood, any text overlay and its position inside the safe zone, matched to the niche.
+
+**Suggested follow-up prompts.** End every audit with a short list titled **Next steps you can ask for**: three concrete follow-up prompts for this video, as plain Markdown bullets in quotes, ready to copy. For example: run Level 3 Pro after a Level 1 or 2 audit, make a tighter cut plan, or rewrite the weakest section. Never end with raw JSON, such as `[{"prompt": ..., "display_text": ...}]`.
 
 ## Honesty rules
 

@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.0 — 2026-10-27
+
+- **Next steps you can ask for:** every audit now ends with three ready-to-copy follow-up prompts for your video, for example a Level 3 Pro audit, a tighter cut plan or a rewrite of the weakest section.
+- **No more raw code at the end:** Gemini sometimes ended the report with a block of raw JSON suggestions. The skill now tells it to give plain bullet points instead.
+
 ## 1.0.0 — 2026-10-22
 
 First release.
